@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-app {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background-color: #BA8B43;
+}
+
+#kundali {
+  display: none;
+}
+
+#download {
+  height: 50px;
+  width: 200px;
+  display: none;
+}
+
+.kundali-form {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+
+.kundaliGen {
+  height: 50px;
+  width: 200px;
+}
+/*# sourceMappingURL=index.css.map */
